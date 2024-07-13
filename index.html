@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Лучшая компания на свете</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img src="img/logo-black.png" alt="logo" class="nav__logo" id="logo" />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#">Возможности</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">О нас</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Подробнее</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Присоединиться</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <h1>
+          Лучшее предложение
+          <br />
+          <span class="highlight">ждет</span> вас
+        </h1>
+        <h4>Простые возможности для лучшей жизни</h4>
+        <button class="btn--text btn--scroll-to">
+          Узнать больше &DownArrow;
+        </button>
+        <img src="img/main-section.png" class="header__img" alt="img" />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Возможности</h2>
+        <h3 class="section__header">
+          Все чтобы стать лучше находится прямо перед вами
+        </h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="img/photo-5-lazy.jpg"
+          data-src="img/photo-5.jpg"
+          alt="img"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">100% гарантия возврата</h5>
+          <p>
+            А ещё независимые государства смешаны с не уникальными данными до
+            степени совершенной неузнаваемости, из-за чего возрастает их статус
+            бесполезности. Предварительные выводы неутешительны.
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Наблюдайте за своим ростом</h5>
+          <p>
+            А ещё независимые государства смешаны с не уникальными данными до
+            степени совершенной неузнаваемости, из-за чего возрастает их статус
+            бесполезности. Предварительные выводы неутешительны!
+          </p>
+        </div>
+        <img
+          src="img/photo-4-lazy.jpg"
+          data-src="img/photo-4.jpg"
+          alt="img"
+          class="features__img lazy-img"
+        />
+
+        <img
+          src="img/photo-3-lazy.jpg"
+          data-src="img/photo-3.jpg"
+          alt="img"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Бесплатное обслуживание</h5>
+          <p>
+            А ещё независимые государства смешаны с не уникальными данными до
+            степени совершенной неузнаваемости, из-за чего возрастает их статус
+            бесполезности.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">О нас</h2>
+        <h3 class="section__header">Мы делаем хорошее - лучшим</h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Быстрое обслуживание
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Бесконтактные платежи
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Гарантия отмены
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Мы используем самые современные технологии
+          </h5>
+          <p>
+            А ещё независимые государства смешаны с не уникальными данными до
+            степени совершенной неузнаваемости, из-за чего возрастает их статус
+            бесполезности. До степени совершенной неузнаваемости, из-за чего
+            возрастает их статус бесполезности.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Используйте свой смартфон, и мы все сделаем за вас
+          </h5>
+          <p>
+            А ещё независимые государства смешаны с не уникальными данными до
+            степени совершенной неузнаваемости, из-за чего возрастает их статус
+            бесполезности. До степени совершенной неузнаваемости, из-за чего
+            возрастает их статус бесполезности.
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Мы предоставляем 100% гарантию на весь срок сотрудничества
+          </h5>
+          <p>
+            А ещё независимые государства смешаны с не уникальными данными до
+            степени совершенной неузнаваемости, из-за чего возрастает их статус
+            бесполезности. До степени совершенной неузнаваемости, из-за чего
+            возрастает их статус бесполезности.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Все еще не уверены?</h2>
+        <h3 class="section__header">
+          Миллионы людей по всему миру доверили свои дела нам.
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Лучшее что было в моей жизни!</h5>
+            <blockquote class="testimonial__text">
+              А ещё независимые государства смешаны с не уникальными данными до
+              степени совершенной неузнаваемости, из-за чего возрастает их
+              статус бесполезности. До степени совершенной неузнаваемости, из-за
+              чего возрастает их статус бесполезности.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-1.jpg" alt="img" class="testimonial__photo" />
+              <h6 class="testimonial__name">Илья Авдеев</h6>
+              <p class="testimonial__location">Санкт-Петербург</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--2">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Я долга сомневался, но в итоге не пожалел
+            </h5>
+            <blockquote class="testimonial__text">
+              А ещё независимые государства смешаны с не уникальными данными до
+              степени совершенной неузнаваемости, из-за чего возрастает их
+              статус бесполезности. До степени совершенной неузнаваемости, из-за
+              чего возрастает их статус бесполезности.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-2.jpg" alt="img" class="testimonial__photo" />
+              <h6 class="testimonial__name">Мария Иванова</h6>
+              <p class="testimonial__location">Великий Новгород</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Наконец я решил все свои проблемы
+            </h5>
+            <blockquote class="testimonial__text">
+              А ещё независимые государства смешаны с не уникальными данными до
+              степени совершенной неузнаваемости, из-за чего возрастает их
+              статус бесполезности. До степени совершенной неузнаваемости, из-за
+              чего возрастает их статус бесполезности.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-3.jpg" alt="img" class="testimonial__photo" />
+              <h6 class="testimonial__name">Иван Савельев</h6>
+              <p class="testimonial__location">Казань</p>
+            </address>
+          </div>
+        </div>
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          Сегодня лучший день чтобы сделать первый шаг навстречу лучшему завтра.
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Присоединяйтесь к нам</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">О нас</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Цены</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Условия</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Политика безопасности</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Карьера</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Блог</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Контакты</a>
+        </li>
+      </ul>
+      <img src="img/logo-white.png" alt="Logo" class="footer__logo" />
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Присоединяйтесь к нам<br />
+        всего лишь за <span class="highlight">5 минут</span>
+      </h2>
+      <form class="modal__form">
+        <label>Имя</label>
+        <input type="text" />
+        <label>Фамилия</label>
+        <input type="text" />
+        <label>Email</label>
+        <input type="email" />
+        <button class="btn">Вперед &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
